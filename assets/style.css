@@ -1,0 +1,45 @@
+body {
+  font-family: Roboto;
+}
+
+/* Header */
+
+.header {
+  background-color: lightseagreen;
+  margin-bottom: 40px;
+  padding: 40px;
+}
+
+.header-text {
+  text-align: center;
+}
+
+/* Search Box */
+
+.search-wrapper {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+}
+
+.search-main > p {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.search-help-text {
+  margin-left: auto;
+}
+
+.search-help-text > p {
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+
+/* Bootstrap Overrides */
+
+.card-body {
+  border-bottom: 1px solid #ced4da;
+}
